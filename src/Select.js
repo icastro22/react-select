@@ -728,6 +728,7 @@ const Select = React.createClass({
 								 onMouseDown={this.handleMouseDownOnMenu}>
 							{this.renderMenu(options, !this.props.multi ? valueArray : null, focusedOption)}
 						</div>
+						<p > Press Enter to search </p>
 					</div>
 				) : null}
 			</div>
